@@ -1,0 +1,126 @@
+
+.mainDiv{
+	background: rgba(0, 128, 128, 0.8);
+	width: 90%;
+	height: 90%;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+	border-radius: 2px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+
+    /*box-shadow: inset #385b38 0 -1px 1px, inset 0 1px 1px #227a22, #134213 0 0 0 1px, rgba(36, 56, 36.3) 0 2px 5px;*/
+}
+
+.noteDiv{
+	display: inline-block;
+	margin: 5px;
+	height: 100%;
+	width: 100%;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.15), 5px 5px 5px 5px rgba(0,0,0,0.12);
+}
+
+.line {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	max-width: 90%;
+	word-wrap: break-word;
+	margin: 5px;
+	font-family: verdana, sans-serif;
+	font-size: 200%;
+	color: white; 
+}
+
+.checkBox{
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+}
+
+.field {
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	height: 100%;
+	color: #000000;
+    font-size: 150%;
+    font-family: Verdana;
+    background: #E0FFFF;
+    border-radius: 1px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+
+}
+
+
+.buttonDiv{
+	display: inline-block;
+	float: right;
+}
+
+.delete {
+	margin: 12px;
+	font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+	font-size: 1.35em;
+	font-weight: 700;
+	color: rgb(245,245,245);
+	text-shadow: 0 -1px rgba(0,0,0,.1);
+	text-decoration: none;
+	user-select: none;
+	padding: .2em 1em;
+	outline: none;
+	border: none;
+	border-radius: 1px;
+	background: #8B0000 linear-gradient(#FA8072, #8B0000);
+	box-shadow: 0 4px 6px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);	
+}
+
+.edit {
+
+	width: 165px;
+	margin: 12px;
+	font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+	font-size: 1.35em;
+	font-weight: 700;
+	color: rgb(245,245,245);
+	text-shadow: 0 -1px rgba(0,0,0,.1);
+	text-decoration: none;
+	user-select: none;
+	padding: .2em 1em;
+	outline: none;
+	border: none;
+	border-radius: 1px;
+	background: #DAA520 linear-gradient(#F0E68C, #DAA520);
+	box-shadow: 0 4px 6px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+}
+
+/*Кнопка*/
+input.submit {
+	position: relative;
+	display: inline-block;
+	font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: rgb(245,245,245);
+	text-shadow: 0 -1px rgba(0,0,0,.1);
+	text-decoration: none;
+	user-select: none;
+	padding: .3em 1em;
+	outline: none;
+	border: none;
+	border-radius: 1px;
+	background: #0c9c0d linear-gradient(#82d18d, #0c9c0d);
+	box-shadow: 0 4px 6px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+}
+.delete, .edit, input.submit:hover {
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
+	cursor: pointer;
+}
+.delete .edit, input.submit:active {
+	top: 1px;
+	color: #fff;
+	text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+	box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+
